@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388822066646",
+    "project_id": "react-chat-app-68ddf",
+    "storage_bucket": "react-chat-app-68ddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388822066646:android:f3d8d748b3dc738c353077",
+        "android_client_info": {
+          "package_name": "com.wa2ReactChatKitty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388822066646-bjcnsciu8769amvfoqe60sa9b6v56b35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMOKqE3j61J3Q1Rqzekqwuz9qjeLbRJLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388822066646-bjcnsciu8769amvfoqe60sa9b6v56b35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
