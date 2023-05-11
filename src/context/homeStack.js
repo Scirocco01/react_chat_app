@@ -10,7 +10,7 @@ const StackTwo = createStackNavigator();
 export default function HomeStack(){
     return(
         <StackTwo.Navigator>
-            <Stack.Screen name = 'home' component={HomeScreen}/>
+            <StackTwo.Screen name = 'home' component={HomeScreen}/>
         </StackTwo.Navigator>
     );
 } 
