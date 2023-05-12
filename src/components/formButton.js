@@ -5,7 +5,11 @@ import { Button } from "react-native-paper";
 
 const{ width,heigth} = Dimensions.get('screen');
 
-export default function FormButton({title,modeValue,uppperCase = true,onPress,labelStyle}){
+export default function FormButton({title,
+    modeValue,
+    uppperCase = true,
+    onPress,
+    labelStyle,disabled = false}){
     return(
         <Button
         mode={modeValue}
@@ -14,6 +18,7 @@ export default function FormButton({title,modeValue,uppperCase = true,onPress,la
         uppercase = {uppperCase}
         onPress={onPress}
         contentStyle = {styles.buttonContainer}
+        disabled ={disabled}
         >
             {title}
         </Button>
